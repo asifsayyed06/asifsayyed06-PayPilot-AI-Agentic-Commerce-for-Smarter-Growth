@@ -1,0 +1,19 @@
+{
+  "name": "paypilot-ai-backend",
+  "version": "1.0.0",
+  "description": "PayPilot AI - Agentic Commerce backend. AI-powered payment platform enabling AI agents to transact on a user's behalf within guardrails.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "keywords": ["agentic-commerce", "ai-agents", "payments", "fintech", "risk-engine", "jwt"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1"
+  }
+}
